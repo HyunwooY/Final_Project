@@ -35,7 +35,7 @@ public class AlarmController {
 		}else {
 			map.put("result", "none");
 		}
-		return map;
+		return map; 
 	}
 	@GetMapping("/saveAlarm")
 	public HashMap<String, Object> saveAlarm(int or_num,
